@@ -1,4 +1,4 @@
-复制# Node / 包管理
+# Node / 包管理
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -26,28 +26,24 @@ dist-ssr/
 *.swo
 *~
 
-# 系统文件
+# 系统文件（macOS/Windows 等）
 .DS_Store
 Thumbs.db
 ehthumbs.db
 
-# 测试/临时文件
+# 测试/覆盖率
 coverage/
 playwright-report/
 test-results/
 
-# Tailwind / PostCSS 缓存（通常不需要，但有时会出现）
+# Tailwind / PostCSS 缓存（可选）
 .postcssrc
 tailwind.config.js.cache
 
-# 调试日志 / 性能分析
+# 调试/性能文件
 *.cpuprofile
 *.heapprofile
 
-# 本地开发临时文件夹（可选）
+# 临时文件夹
 temp/
 tmp/
-
-# 如果你用 pnpm / bun 等其他包管理器，根据需要添加
-.pnpm-store/
-bunfig.toml
